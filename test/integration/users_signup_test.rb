@@ -15,7 +15,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
         email: "user@example.com",
         password:              "password",
         password_confirmation: "password" }
-      end
       assert_template 'users/show'
     end
   end
