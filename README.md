@@ -1,1 +1,2 @@
-# Twittr v2
+# Twittr platform built in RoR
+-.-
