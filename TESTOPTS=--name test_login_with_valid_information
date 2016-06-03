@@ -1,0 +1,25 @@
+Started
+
+
+
+Progress: |[0m[1000D[K[31mERROR[0m["test_login_with_invalid_information", UsersLoginTest, 2016-06-01 17:25:49 -0400]
+ test_login_with_invalid_information#UsersLoginTest (1464816349.95s)
+ActiveRecord::Fixture::FormatError:         ActiveRecord::Fixture::FormatError: a YAML error occurred parsing /Users/stevechen/Desktop/sample-app2/test/fixtures/users.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Please have a look at http://www.yaml.org/faq.html
+        The exact error was:
+          ArgumentError: wrong number of arguments (given 1, expected 0)
+            app/models/user.rb:11:in `digest'
+        app/models/user.rb:11:in `digest'
+
+[0m[1000D[K[31mERROR[0m["test_login_with_valid_information", UsersLoginTest, 2016-06-01 17:25:49 -0400]
+ test_login_with_valid_information#UsersLoginTest (1464816349.95s)
+ActiveRecord::Fixture::FormatError:         ActiveRecord::Fixture::FormatError: a YAML error occurred parsing /Users/stevechen/Desktop/sample-app2/test/fixtures/users.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Please have a look at http://www.yaml.org/faq.html
+        The exact error was:
+          ArgumentError: wrong number of arguments (given 1, expected 0)
+            app/models/user.rb:11:in `digest'
+        app/models/user.rb:11:in `digest'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m|
+
+Finished in 0.00752s
+2 tests, 0 assertions, [31m0 failures, 2 errors, [0m[33m0 skips[0m
+]2;[Minitest results] 2 tests
