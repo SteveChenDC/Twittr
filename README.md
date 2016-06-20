@@ -1,2 +1,2 @@
-# Twittr platform built in RoR
+# Twitter clone
 -.-
